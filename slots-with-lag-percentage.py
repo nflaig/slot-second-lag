@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import re
 
 # Read the log data from a file
-file_path = "event-loop-lag-detected.log"
+file_path = "event-loop-lag-detected2.log"
 with open(file_path, 'r') as file:
     log_data = file.read()
 
